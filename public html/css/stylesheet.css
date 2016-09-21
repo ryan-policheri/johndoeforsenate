@@ -1,1 +1,25 @@
 /*Author: Kyle Hovey*/
+
+/*Color Scheme: #FFD60B, #E80D00, #0F11FF, #BEE8CC, #FFFFFF*/
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0; 
+	background-color: #0F11FF;
+}
+
+nav li{
+	display: inline;
+	background-color: #FFD60B;
+	padding: 10px;
+	margin: 0;
+	overflow: hidden;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #000000;
+	font-family: Verdana, sans-serif;
+}
+
