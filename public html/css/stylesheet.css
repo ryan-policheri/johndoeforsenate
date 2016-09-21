@@ -58,6 +58,31 @@ header h2 {
 	color: #FFFFFF;
 }
 
+.voteJohn {
+	float:right;
+	text-align: center;
+	font-family: Verdana, sans-serif;
+	font-size: 24px;
+	padding: 0;
+	margin: 0;
+}
+
+a.voteJohn{
+	clear:right;
+	font-size: 12px;
+	text-decoration: none;
+	background-color:#A60A0A;
+	color: #FFFFFF;
+	padding:5px;
+	text-align: center;
+}
+
+#ballot {
+	float:right;
+	clear:right;
+	width: 200px;
+}
+
 footer {
 	background-color: #F2C185;
 	margin:10px -10px 0 -10px ;
