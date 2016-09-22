@@ -1,0 +1,44 @@
+p {
+    width: 500px;
+}
+
+nav ul{
+    list-style-type: none;
+    background-color: rgb(200, 10, 10);
+    overflow:hidden;
+    font-family: arial, sans-serif;
+}
+
+nav li{ 
+    float:left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: rgb(240, 30, 30);
+}
+
+table {
+    border-color: black;
+    
+}
+
+table tr {
+    background-color: rgba(0,0,255, 0.2);
+    font-family: sans-serif;
+}
+
+.row_odd { 
+    background-color: rgba(0,0,255, 0.4);
+}
+
+thead {
+    background-color: rgba(0,0,255, 0.7);
+}
