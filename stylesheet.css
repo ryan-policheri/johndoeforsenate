@@ -1,0 +1,91 @@
+/*Author: Kyle Hovey*/
+
+/*Color Scheme: #021F59, #011640, #F2C185, #590202, #A60A0A*/
+
+nav ul {
+	margin: -10px -5px 0 -5px;
+	padding: 5px;
+	text-align:center;
+	background-color: #011640;
+	overflow: hidden;
+}
+
+nav li {
+	display: inline;
+	list-style: none;
+
+}
+
+nav a {
+	display: inline-block;
+	width: 120px;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+	color: #000000;
+	font-family: Verdana, sans-serif;
+	text-transform: uppercase;
+	background-color: #A60A0A;
+	margin-top: 5px;
+	border: outset 3px #F2C185;
+}
+
+nav a:hover{
+	border: inset 3px #F2C185;
+}
+
+header {
+	font-family: Verdana, sans-serif;
+	text-align: center;
+	padding: 20px;
+	margin: 10px 0 0 0;
+	background-color: #011640;
+}
+
+header h1 {
+	display: inline-block;
+	color: #A60A0A;
+	border: outset 5px #F2C185;
+	border-radius: 25px;
+	padding: 10px;
+}
+
+header h2 {
+	display: inline-block;
+	background-color: #590202;
+	padding: 20px;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+.voteJohn {
+	float:right;
+	text-align: center;
+	font-family: Verdana, sans-serif;
+	font-size: 24px;
+	padding: 0;
+	margin: 0;
+}
+
+a.voteJohn{
+	clear:right;
+	font-size: 12px;
+	text-decoration: none;
+	background-color:#A60A0A;
+	color: #FFFFFF;
+	padding:5px;
+	text-align: center;
+}
+
+#ballot {
+	float:right;
+	clear:right;
+	width: 200px;
+}
+
+footer {
+	background-color: #F2C185;
+	margin:10px -10px 0 -10px ;
+	padding: 0 10px 10px 10px;
+	overflow: hidden;
+}
