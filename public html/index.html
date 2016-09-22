@@ -7,6 +7,24 @@
     <title>John Doe for Senate</title>
 
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+
+    <style>
+        section ul{
+            margin-top:20px;
+        }
+        section li{
+            list-style: none;
+            padding:15px;
+        }
+        section a {
+            font-family:Arial, sans-serif;
+            text-decoration: none;
+            color:#FFFFFF;
+            background-color: #021F59;
+            padding:10px;
+            border: outset 2px #F2C185;
+        }
+    </style>
     
 </head>
  
@@ -29,14 +47,21 @@
         <h2> A handsome no-nonsense family man!</h2> 
     </header>
     
-    <div>
-        <h5 class="voteJohn"> Vote John Doe!</h5>
+    <div class="vote">
+        <h5> Vote John Doe!</h5>
         <img src ="img/content/Ballot.png" alt="Vote Picture"/>
         <br><a href="pollinglocation.html">Click here for polling locations!</a>
     </div>
 
-    <img src ="img/content/John_Doe_Picture.jpg" alt="John Doe Picture" width = 350 height = 200>
-    
+    <section>
+        <img id="john" style="border-color:#F2C185;" src ="img/content/John_Doe_Picture.jpg" alt="John Doe Picture" width = 350 height = 200>
+        <ul>
+        <li><a href="johnabout.html">Learn more about John here!</a></li>
+        <li><a href="issues.html">Learn what John is passionate about!</a></li>
+        <li><a href="events.html">Learn where you can see John!</a></li>
+        </ul>
+    </section>
+
     <footer><em>Contact our office at 555-676-9090 or by email at electjohndoe@johndoe.org</em></footer>
     
 </body>
