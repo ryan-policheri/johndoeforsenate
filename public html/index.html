@@ -9,12 +9,17 @@
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 
     <style>
+        section{
+            width:80%;
+        }
         section ul{
             margin-top:20px;
+            text-align: center;
         }
         section li{
             list-style: none;
             padding:15px;
+            display: block;
         }
         section a {
             font-family:Arial, sans-serif;
@@ -22,13 +27,15 @@
             color:#FFFFFF;
             background-color: #021F59;
             padding:10px;
-            border: outset 2px #F2C185;
+            border: outset 3px #F2C185;
         }
     </style>
     
 </head>
  
-<body>    
+<body> 
+    <div id = "container">   
+    <div id ="header">
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -46,11 +53,12 @@
         <h1>John Doe: Independent For Urgandale Senate</h1><br>
         <h2> A handsome no-nonsense family man!</h2> 
     </header>
-    
+    </div>
+    <div id ="body">
     <div class="vote">
         <h5> Vote John Doe!</h5>
         <img src ="img/content/Ballot.png" alt="Vote Picture"/>
-        <br><a href="pollinglocation.html">Click here for polling locations!</a>
+        <br><a class= "pollingLocation" href="pollinglocation.html">Click here for polling locations!</a>
     </div>
 
     <section>
@@ -61,8 +69,10 @@
         <li><a href="events.html">Learn where you can see John!</a></li>
         </ul>
     </section>
-
+    </div>
+    <div id= "footer">
     <footer><em>Contact our office at 555-676-9090 or by email at electjohndoe@johndoe.org</em></footer>
-    
+    </div>
+    </div>
 </body>
 </html>
