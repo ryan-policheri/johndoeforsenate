@@ -1,27 +1,49 @@
-<style type="text/css">
-body{
-    margin:0px;
-    background:#000;
+body {
+    background-color: #D4D0ED; 
+    font-family: "Arial Black", sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
-.header-cont {
-    width:100%;
-    position:fixed;
-    top:0px;
+            
+header {
+    margin: 20px;
+    padding: 20px;
+    background-color: #565560;
+    color: white;
+    text-align: center;
 }
-.header {
-    height:50px;
-    background:#F0F0F0;
-    border:1px solid #CCC;
-    width:960px;
-    margin:0px auto;
+
+nav ul{
+    position: fixed;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #565560;
+    overflow: hidden;
+    width: 100%;
 }
+
+nav li{
+    float: left;
 }
-</style>
-</head>
-<body>
- 
-<div class="header-cont">
-    <div></div>
-</div>
- 
-<div></div>
+
+nav li a{
+    color: white;
+    display: block;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    background-color: #ffffff;
+    color: #565560;
+}
+        
+section {
+    background-color: #E4E0FD;
+    color: #565560;
+    margin: 10%;       
+}
+
