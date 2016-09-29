@@ -25,9 +25,22 @@
 
 <body>
 
-    <nav>   
-        <ul>
-            <li><a href="index.html">Home</a></li>
+   <nav class="navbar navbar-inverse navbar-fixed-top">   
+        <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+
+            <!-- Three line "hamburger" icon for the collapsed navigation -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+           <div id="navbar" class="collapse navbar-collapse">
+           
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
             <li><a href="johnabout.html">About John</a></li>
             <li><a href="issues.html">Issues</a></li>
             <li><a href="events.html">Events</a></li>
@@ -36,15 +49,25 @@
             <li><a href="signup.html">Sign Up</a></li>
             <li><a href="login.html">Login</a></li>
         </ul>
+        </div>
+        </div>
+        </div>
      </nav> 
      
+      <!-- Main content -->
+     <div class="container">
+
+      <!-- This container moves below the menu bar -->
+      <div class="below_menu_container">
+      
+     </div>
     <section>
         <h1>Polling Places in Urbandale</h1>
     </section>
-    
+    <div class="mycolor col-xs-6">
     <br> <img src ="img/content/ballot.png" alt="Vote Picture"/>
     
-     <table border = "1">
+     <table class="table table-condensed">
 
      <thead>
         <tr> 
@@ -55,7 +78,7 @@
      </thead>
      
      <tbody>
-        <tr class= "row_odd">
+        <tr class="info">
             <td>Highland Elementary</td>
             <td>Newton</td>
             <td>Blackwell</td>
@@ -67,7 +90,7 @@
             <td>Blackwell</td>
         </tr>
         
-        <tr class= "row_odd">
+        <tr class="info">
             <td>Saint Mary's Church</td>
             <td>Calvin</td>
             <td>Rapture</td>
@@ -79,7 +102,7 @@
             <td>Rapture</td>
         </tr>
 
-        <tr class= "row_odd">
+        <tr class="info">
             <td>Jane High School</td>
             <td>Jane</td>
             <td>Rapture</td>
@@ -91,7 +114,7 @@
             <td>Woodwork</td>
         </tr>
 
-	<tr class= "row_odd">
+	<tr class="info">
             <td>Wilson Police Station</td>
             <td>Wilson</td>
             <td>Woodwork</td>
@@ -103,7 +126,7 @@
             <td>Woodwork</td>
         </tr>
 
-	<tr class= "row_odd">
+	<tr class="info">
             <td>Saturn Plaza</td>
             <td>Sol</td>
             <td>Milky Way</td>
@@ -116,7 +139,7 @@
             <td>Milky Way</td>
         </tr>
 
-	<tr class= "row_odd">
+	<tr class="info">
             <td>Lions Middle School</td>
             <td>Lions</td>
             <td>Granite</td>
@@ -128,7 +151,7 @@
             <td>Granite</td>
         </tr>
 
-	<tr class= "row_odd">
+	<tr class="info">
             <td>T-rex Museum</td>
             <td>Rex</td>
             <td>Granite</td>
@@ -145,6 +168,10 @@
    </table>
    
    <footer><br><em>Contact our office at 555-676-9090 or by email at electjohndoe@johndoe.org</em></footer>
-   
+ </div>  
+ </div>
+ <!-- Scripts required to make Bootstrap work better. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
 </body>
 </html>

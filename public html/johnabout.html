@@ -25,9 +25,22 @@
 
 <body>
 
-    <nav>   
-        <ul>
-            <li><a href="index.html">Home</a></li>
+   <nav class="navbar navbar-inverse navbar-fixed-top">   
+        <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+
+            <!-- Three line "hamburger" icon for the collapsed navigation -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+           <div id="navbar" class="collapse navbar-collapse">
+           
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
             <li><a href="johnabout.html">About John</a></li>
             <li><a href="issues.html">Issues</a></li>
             <li><a href="events.html">Events</a></li>
@@ -36,11 +49,19 @@
             <li><a href="signup.html">Sign Up</a></li>
             <li><a href="login.html">Login</a></li>
         </ul>
+        </div>
+        </div>
+        </div>
      </nav> 
      
+      <!-- Main content -->
+     <div class="container">
+      <!-- This container moves below the menu bar -->
+      <div class="below_menu_container">
+     </div>
     <h2>About John Doe</h2>
      <img src ="img/content/john_doe_picture.jpg" alt="John Doe Picture"> 
-     
+     <div class="mycolor col-xs-6">
     <p>
     Hi I am John Doe. I am 36 years old, and at this point in my life, I want to dedicate myself to public service.
     I was born and raised in Newton, Urbandale, where I was raised by two loving parents.
@@ -64,6 +85,10 @@
     </p>
     
     <footer><br><em>Contact our office at 555-676-9090 or by email at electjohndoe@johndoe.org</em></footer>
-    
+   </div> 
+   </div>
+   <!-- Scripts required to make Bootstrap work better. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
 </body>
 </html>
