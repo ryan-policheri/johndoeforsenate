@@ -17,59 +17,83 @@
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="johnabout.html">About John</a></li>
-            <li><a href="issues.html">Issues</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="volunteer.html">Volunteer</a></li>
-            <li><a href="pollinglocation.html">Polling</a></li>
-            <li><a href="signup.html">Sign Up</a></li>
-            <li><a href="login.html">Login</a></li>
-        </ul>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" href="#"> John Doe for Senate</a>
+            </div>
+
+            <div id = "navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="johnabout.html">About John</a></li>
+                    <li><a href="issues.html">Issues</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="volunteer.html">Volunteer</a></li>
+                    <li><a href="pollinglocation.html">Polling</a></li>
+                    <li><a href="signup.html">Sign Up</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
+    <div class="container">
+        <div class="below_menu_container">
+            <header>
+            <h1>About John Doe</h1>
+            <h2>Learn more about the man you should vote for!</h2> 
+            </header>
 
-    <header>
-    <h1>About John Doe</h1>
-    <h2>Learn more about the man you should vote for!</h2> 
-    </header>
+            <div>
+                <h5> Vote John Doe!</h5>
+                <img src ="img/content/Ballot.png" alt="Vote Picture"/>
+                <br><a href="pollinglocation.html">Click here for polling locations!</a>
+            </div>
 
-    <div>
-        <h5> Vote John Doe!</h5>
-        <img src ="img/content/Ballot.png" alt="Vote Picture"/>
-        <br><a href="pollinglocation.html">Click here for polling locations!</a>
-    </div>
+            <section>       
+            <img src ="img/content/John_Doe_Picture.jpg" alt="John Doe Picture" width = 350 height = 200>
+            <p>
+            Hi I am John Doe. I am 36 years old, and at this point in my life, I want to dedicate myself to public service.
+            I was born and raised in Newton, Urgandale, where I was raised by two loving parents.
+            During the early years of my life I participated in the Urgandale youth group and played soccer.
+            In Newton High School, I was a member of the science club and was interested in chemistry.
+            After high school I attended Ohio State University, where I studied biology and law.
+            </p>
+            
+            <p>
+            I started my political career when I was twenty five and worked on the school board for Rapture county.
+            I played a fundamental role in unionizing the school curriculum across Urgandale.
+            After that, I served as a congressman in the second district.
+            There I used my influence for more nutritious meals in school cafeterias and pushed through legislation to reduce food waste in grocery stores.
+            </p>
+            
+            <p>
+            I took a break from politics after the birth of my first child.
+            I was dedicated to be there for my child in the early and most important years of their life.
+            Now I wish to bring that dedication back to the community and serve the country as a senator.
+            I think I can really make a difference in the world by giving it my all in the Senate.
+            </p>
+            
+            <p>Being a devout Puritan has made a huge impact on how I lead my life. I lived on an Amish farm and was not exposed to any technology until the age of five. This makes me a very big supporter of widespread sustenance farming. This would reduce the energy cost of farming by eliminating the need for farming machines. Farming in this way will also create more jobs by opening up opportunities to be ranch hands. 
+            This idea will take us back to the roots of Urgandale and what our great nation was founded on.</p>
+            </section>
+            
+      <footer class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+          <em>Contact our office at 555-676-9090 or by email at electjohndoe@johndoe.org</em>
+        </div>
+      </footer>
 
-    <section>       
-    <img src ="img/content/John_Doe_Picture.jpg" alt="John Doe Picture" width = 350 height = 200>
-    <p>
-    Hi I am John Doe. I am 36 years old, and at this point in my life, I want to dedicate myself to public service.
-    I was born and raised in Newton, Urgandale, where I was raised by two loving parents.
-    During the early years of my life I participated in the Urgandale youth group and played soccer.
-    In Newton High School, I was a member of the science club and was interested in chemistry.
-    After high school I attended Ohio State University, where I studied biology and law.
-    </p>
-    
-    <p>
-    I started my political career when I was twenty five and worked on the school board for Rapture county.
-    I played a fundamental role in unionizing the school curriculum across Urgandale.
-    After that, I served as a congressman in the second district.
-    There I used my influence for more nutritious meals in school cafeterias and pushed through legislation to reduce food waste in grocery stores.
-    </p>
-    
-    <p>
-    I took a break from politics after the birth of my first child.
-    I was dedicated to be there for my child in the early and most important years of their life.
-    Now I wish to bring that dedication back to the community and serve the country as a senator.
-    I think I can really make a difference in the world by giving it my all in the Senate.
-    </p>
-    
-    <p>Being a devout Puritan has made a huge impact on how I lead my life. I lived on an Amish farm and was not exposed to any technology until the age of five. This makes me a very big supporter of widespread sustenance farming. This would reduce the energy cost of farming by eliminating the need for farming machines. Farming in this way will also create more jobs by opening up opportunities to be ranch hands. 
-    This idea will take us back to the roots of Urgandale and what our great nation was founded on.</p>
-    </section>
-    
-    <footer><em>Contact our office at 555-676-9090 or by email at electjohndoe@johndoe.org</em></footer>
-    
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        </div>
+    </div>        
 </body>
 </html>

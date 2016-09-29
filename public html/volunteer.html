@@ -17,86 +17,110 @@
 </head>
 
 <body>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="johnabout.html">About John</a></li>
-      <li><a href="issues.html">Issues</a></li>
-      <li><a href="events.html">Events</a></li>
-      <li><a href="volunteer.html">Volunteer</a></li>
-      <li><a href="pollinglocation.html">Polling</a></li>
-      <li><a href="signup.html">Sign Up</a></li>
-      <li><a href="login.html">Login</a></li>
-    </ul>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="navbar-brand" href="#"> John Doe for Senate</a>
+      </div>
+
+      <div id = "navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="johnabout.html">About John</a></li>
+          <li><a href="issues.html">Issues</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li class="active"><a href="volunteer.html">Volunteer</a></li>
+          <li><a href="pollinglocation.html">Polling</a></li>
+          <li><a href="signup.html">Sign Up</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </div>
+    </div>
   </nav>
+  <div class="container">
+      <div class="below_menu_container">
+        <header>
+          <h1>Volunteering</h1>
+          <h2>Your chance to help John Doe get in office!</h2>
+        </header>
 
-  <header>
-    <h1>Volunteering</h1>
-    <h2>Your chance to help John Doe get in office!<h2>
-  </header>
+        <div>
+          <h5> Vote John Doe!</h5>
+          <img src ="img/content/Ballot.png" alt="Vote Picture"/>
+          <br><a class="pollingLocation" href="pollinglocation.html">Click here for polling locations!</a>
+        </div>  
+        
+        <section>
+        <p>If you are eager to support John Doe and his efforts to be elected on to the Urgandale <br>
+        state senate, we would be glad to have your help. In order to help with our campaign, there<br>
+        are a few requirements. They include:
+        </p>
 
-  <div>
-    <h5> Vote John Doe!</h5>
-    <img src ="img/content/Ballot.png" alt="Vote Picture"/>
-    <br><a class="pollingLocation" href="pollinglocation.html">Click here for polling locations!</a>
-  </div>  
-  
-  <section>
-  <p>If you are eager to support John Doe and his efforts to be elected on to the Urgandale <br>
-  state senate, we would be glad to have your help. In order to help with our campaign, there<br>
-  are a few requirements. They include:
-  </p>
+         <ul>
 
-   <ul>
+            <li>
+              Must be over 18 years old
+            </li>
 
-      <li>
-        Must be over 18 years old
-      </li>
+            <li>
+              Must be registered to vote
+            </li>
 
-      <li>
-        Must be registered to vote
-      </li>
+            <li>
+              Able to communicate and interact with a variety of different people
+            </li>
 
-      <li>
-        Able to communicate and interact with a variety of different people
-      </li>
+         </ul>
 
-   </ul>
+       <p>Once on the campaign, you could be performing a wide range of different tasks. These include<br>
+       &#40;but are not limited to&#41;:
+       </p>
+         <ul>
 
- <p>Once on the campaign, you could be performing a wide range of different tasks. These include<br>
- &#40;but are not limited to&#41;:
- </p>
-   <ul>
+            <li>
+              Phone banking, where you will call different people and explain to them our candidates positions.
+            </li>
 
-      <li>
-        Phone banking, where you will call different people and explain to them our candidates positions.
-      </li>
+            <li>
+              Block walking, where you go door to door for likely voters talk about our candidate.
+            </li>
 
-      <li>
-        Block walking, where you go door to door for likely voters talk about our candidate.
-      </li>
+            <li>
+             Assisting at rallies. This may include clean up afterwards or setting up equipment.
+            </li>
 
-      <li>
-       Assisting at rallies. This may include clean up afterwards or setting up equipment.
-      </li>
+            <li>
+              Composing emails and scripts for our campaign.
+            </li>
 
-      <li>
-        Composing emails and scripts for our campaign.
-      </li>
+         </ul>
+         
+      <p>
+      If you believe you will be a helpful addition to our campaign, please contact Jack Henry at<br>
+      555-456-7645 or at jack.henry@johndoe.org
+      </p>
 
-   </ul>
-   
-<p>
-If you believe you will be a helpful addition to our campaign, please contact Jack Henry at<br>
-555-456-7645 or at jack.henry@johndoe.org
-</p>
+      <p>
+      John Doe's campaign is also welcome to financial assistance. If you would like to donate to our campaign contact our office for mailing information.
+      </p>
+      </section>
 
-<p>
-John Doe's campaign is also welcome to financial assistance. If you would like to donate to our campaign contact our office for mailing information.
-</p>
-</section>
-
-<footer><em>Contact our office at 555-676-9090 or by email at electjohndoe@johndoe.org</em></footer>
-
+      <footer class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+          <em>Contact our office at 555-676-9090 or by email at electjohndoe@johndoe.org</em>
+        </div>
+      </footer>
+      
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </div>
+  </div>
 </body>
 </html>
