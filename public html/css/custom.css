@@ -2,6 +2,10 @@
 	Author: Kyle Hovey */
 
 .below_menu_container {
-  padding-top: 50px;
+  padding-top: 80px;
   padding-bottom:100px;
+}
+
+.clear_footer{
+	padding-bottom:100px;
 }
