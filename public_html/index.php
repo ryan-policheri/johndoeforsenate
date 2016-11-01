@@ -42,18 +42,8 @@
 </head>
  
 <body> 
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="johnabout.html">About John</a></li>
-            <li><a href="issues.html">Issues</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="volunteer.html">Volunteer</a></li>
-            <li><a href="pollinglocation.html">Polling</a></li>
-            <li><a href="signup.html">Sign Up</a></li>
-            <li><a href="login.html">Login</a></li>
-        </ul>
-    </nav>
+
+    <?php include '../resources/navigation.php'; ?>
 
     <header>
         <h1>John Doe: Independent For Urgandale Senate</h1><br>
@@ -63,17 +53,17 @@
     <div class="vote">
         <h5> Vote John Doe!</h5>
         <img src ="img/content/Ballot.png" alt="Vote Picture"/>
-        <br><a class= "pollingLocation" href="pollinglocation.html">Click here for polling locations!</a>
+        <br><a class= "pollingLocation" href="pollinglocation.php">Click here for polling locations!</a>
     </div>
 
     <section>
         <img id="john" style="border-color:#F2C185;" src ="img/content/John_Doe_Picture2.jpg" alt="John Doe Picture" width = 350 height = 200>
         <ul>
-        <li><a href="johnabout.html">Learn more about John here!</a></li>
-        <li><a href="issues.html">Learn what John is passionate about!</a></li>
-        <li><a href="events.html">Learn where you can see John!</a></li>
+        <li><a href="johnabout.phh">Learn more about John here!</a></li>
+        <li><a href="issues.php">Learn what John is passionate about!</a></li>
+        <li><a href="events.php">Learn where you can see John!</a></li>
         </ul>
     </section>
-    <footer><em>Contact our office at 555-676-9090 or by email at electjohndoe@johndoe.org</em></footer>
+    <?php include '../resources/footer.php'; ?>
 </body>
 </html>

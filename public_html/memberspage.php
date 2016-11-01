@@ -42,18 +42,8 @@
 </head>
  
 <body> 
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="johnabout.html">About John</a></li>
-            <li><a href="issues.html">Issues</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="volunteer.html">Volunteer</a></li>
-            <li><a href="pollinglocation.html">Polling</a></li>
-            <li><a href="signup.html">Sign Up</a></li>
-            <li><a href="login.html">Login</a></li>
-        </ul>
-    </nav>
+
+    <?php include '../resources/navigation.php'; ?>
 
     <header>
         <h1>Members Welcome!</h1><br>
@@ -63,15 +53,17 @@
     <div class="vote">
         <h5> Vote John Doe!</h5>
         <img src ="img/content/Ballot.png" alt="Vote Picture"/>
-        <br><a class= "pollingLocation" href="pollinglocation.html">Click here for polling locations!</a>
+        <br><a class= "pollingLocation" href="pollinglocation.php">Click here for polling locations!</a>
     </div>
 
     <section class ="main">
-        <p>
         <h4>Online Video Stream</h4>
+        <p>
         John will be having two more online video streams before the election for members only! These streams will be on Thursday, October 13 at 6:00PM and Tuesday,          October 25 at 9:00PM. In these streams John will answer questions that have been asked on the campaign trail or have been received by our office. These               questions can and will be about anything, not just politics. Thank you for your support!
         </p>
     </section>
-    <footer><em>Contact our office at 555-676-9090 or by email at electjohndoe@johndoe.org</em></footer>
+
+    <?php include '../resources/footer.php'; ?>
+
 </body>
 </html>

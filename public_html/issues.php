@@ -18,20 +18,8 @@
 </head>
 
 <body>
-    <nav>
-        
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="johnabout.html">About John</a></li>
-            <li><a href="issues.html">Issues</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="volunteer.html">Volunteer</a></li>
-            <li><a href="pollinglocation.html">Polling</a></li>
-            <li><a href="signup.html">Sign Up</a></li>
-            <li><a href="login.html">Login</a></li>
-        </ul>
-        
-    </nav>
+
+    <?php include '../resources/navigation.php'; ?>
 
     <header>
     <h1>Issues</h1><br>
@@ -41,7 +29,7 @@
     <div class="vote">
     <h5> Vote John Doe!</h5>
     <img src ="img/content/Ballot.png" alt="Vote Picture"/>
-    <br><a class="pollingLocation" href="pollinglocation.html">Click here for polling locations!</a>
+    <br><a class="pollingLocation" href="pollinglocation.php">Click here for polling locations!</a>
     </div>
     
     <section class="main">
@@ -89,7 +77,7 @@
     </p>
     </section>
 
-    <footer><em>Contact our office at 555-676-9090 or by email at electjohndoe@johndoe.org</em></footer>
+    <?php include '../resources/footer.php'; ?>
 
 </body>
 </html>

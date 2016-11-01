@@ -38,18 +38,8 @@
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="johnabout.html">About John</a></li>
-            <li><a href="issues.html">Issues</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="volunteer.html">Volunteer</a></li>
-            <li><a href="pollinglocation.html">Polling</a></li>
-            <li><a href="signup.html">Sign Up</a></li>
-            <li><a href="login.html">Login</a></li>
-        </ul>
-    </nav>
+
+    <?php include '../resources/navigation.php'; ?>
 
     <header>
         <h1>Polling Places in Urgandale</h1>
@@ -151,7 +141,7 @@
    </div>
    </div>
    
-   <footer><em>Contact our office at 555-676-9090 or by email at electjohndoe@johndoe.org</em></footer>
+    <?php include '../resources/footer.php'; ?>
    
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
